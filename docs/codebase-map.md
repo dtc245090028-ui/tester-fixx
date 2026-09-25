@@ -89,6 +89,7 @@
 | `backend/tests/test_stock_transactions.py` | Test ACID Nhập/Xuất kho, chống tồn âm, state machine hủy phiếu, báo cáo tồn |
 | `backend/tests/test_ai.py` | Test pipeline bảo mật (không lộ giá mua), Fallback Engine, Mock Gemini API, RBAC |
 | `backend/tests/test_agent_comprehensive_blackbox.py` | Test hộp đen toàn diện luồng nghiệp vụ end-to-end, RBAC, biên và ngoại lệ |
+| `backend/tests/test_station.py` | Test case mẫu tái hiện lỗi linter Ruff (I001 chưa sort import và F401 unused import) |
 
 ### `frontend/`
 

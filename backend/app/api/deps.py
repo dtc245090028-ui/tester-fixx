@@ -54,6 +54,9 @@ def get_current_user(
     return user
 
 
+get_current_active_user = get_current_user
+
+
 def require_roles(allowed_roles: List[str]) -> Callable[[User], User]:
     """Dependency Factory kiểm tra vai trò người dùng (RBAC).
 
